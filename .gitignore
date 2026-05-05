@@ -258,6 +258,49 @@ CPack\*.cmake
 /dist/
 
 # ──────────────────────────────────────────────────────────────────────────────
+# AI Coding Assistant / Harness Artifacts
+# ──────────────────────────────────────────────────────────────────────────────
+
+# GitHub Copilot
+.github/copilot/
+.github/copilot*.json
+.copilot/  
+.copilot-chat/
+
+# Cursor IDE (VS Code fork with AI)
+.cursor/
+.cursorignore
+
+# Claude Code (Anthropic)
+.claude/
+.claude-code/
+
+# ChatGPT / OpenAI
+.openai/
+.chatgpt/
+
+# Codeium
+.codeium/
+.codeium.json
+
+# Tabnine
+.tabnine/
+.tabnine.config
+
+# Amazon Q Developer (formerly CodeWhisperer)
+.aws/amazon-q/
+
+# Google Gemini Code Assist
+.gemini/
+
+# Sourcegraph Cody
+.cody/
+.cody.json
+
+# Replit AI
+.replit/
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Miscellaneous
 # ──────────────────────────────────────────────────────────────────────────────
 
